@@ -4,9 +4,12 @@
     "strict": true,
     "paths": {
       "@/*": [
-        "./*"
-      ]
-    }
+        "src/*"
+      ],
+      "@components/*": ["src/components/*"],
+      "@assets/*": ["assets/*"]
+    },
+    "baseUrl": ".",
   },
   "include": [
     "**/*.ts",
